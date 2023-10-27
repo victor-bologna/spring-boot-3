@@ -9,9 +9,9 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 
-import com.example.springboot.dtos.ProductRecordDto;
-import com.example.springboot.exception.ProductNotFoundException;
-import com.example.springboot.models.ProductModel;
+import com.example.springboot.domain.dtos.ProductRecordDto;
+import com.example.springboot.domain.exception.ProductNotFoundException;
+import com.example.springboot.domain.models.ProductModel;
 import com.example.springboot.repositories.ProductRepository;
 import java.math.BigDecimal;
 import java.util.List;

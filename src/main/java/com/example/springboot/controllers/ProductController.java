@@ -3,9 +3,9 @@ package com.example.springboot.controllers;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.example.springboot.dtos.ProductRecordDto;
-import com.example.springboot.exception.ProductNotFoundException;
-import com.example.springboot.models.ProductModel;
+import com.example.springboot.domain.dtos.ProductRecordDto;
+import com.example.springboot.domain.exception.ProductNotFoundException;
+import com.example.springboot.domain.models.ProductModel;
 import com.example.springboot.repositories.ProductRepository;
 import jakarta.validation.Valid;
 import java.util.List;

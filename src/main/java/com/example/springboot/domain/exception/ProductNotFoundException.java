@@ -1,4 +1,4 @@
-package com.example.springboot.exception;
+package com.example.springboot.domain.exception;
 
 public class ProductNotFoundException extends RuntimeException {
     public ProductNotFoundException(String message) {

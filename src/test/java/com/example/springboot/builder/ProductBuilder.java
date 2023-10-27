@@ -1,7 +1,7 @@
 package com.example.springboot.builder;
 
-import com.example.springboot.dtos.ProductRecordDto;
-import com.example.springboot.models.ProductModel;
+import com.example.springboot.domain.dtos.ProductRecordDto;
+import com.example.springboot.domain.models.ProductModel;
 import java.math.BigDecimal;
 import java.util.UUID;
 import org.springframework.beans.BeanUtils;

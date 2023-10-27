@@ -3,7 +3,7 @@ package com.example.springboot.controllers.handler;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.example.springboot.exception.ProductNotFoundException;
+import com.example.springboot.domain.exception.ProductNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.util.Objects;
